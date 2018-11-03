@@ -42,8 +42,6 @@ this also works for elements exiting the viewport
 
 ## Examples
 
-See examples at [https://react-scrollable-css.raketa.work](https://react-scrollable-css.raketa.work)
-
 ### Page reading progress
 
 ```css
@@ -66,6 +64,8 @@ const PageReadingProgress = () => (
   </ScrollableCSS>
 );
 ```
+
+See more examples at [https://react-scrollable-css.raketa.work](https://react-scrollable-css.raketa.work)
 
 ## License
 
