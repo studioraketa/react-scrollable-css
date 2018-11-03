@@ -1,13 +1,13 @@
 {
   "name": "react-scrollable-css",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "React library for animating CSS properties based on window scroll",
   "main": "build/index.js",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/studioraketa/react-scrollable-css.git"
+    "type": "git",
+    "url": "https://github.com/studioraketa/react-scrollable-css.git"
   },
-  "license" : "MIT",
+  "license": "MIT",
   "peerDependencies": {
     "react": "^16.6.0"
   },
