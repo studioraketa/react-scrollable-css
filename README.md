@@ -59,11 +59,12 @@ Until a documentation site is prepared, here's a common usage example.
 ```jsx
 import ScrollableCSS from 'react-scrollable-css';
 
-const
-<ScrollableCSS>
-  {(context) =>
-    <div className="progress" style={{ background: `linear-gradient(to right, #f9ec31 ${context.percentPageSeen}%, transparent 0)` }} />}
-</ScrollableCSS>
+const PageReadingProgress = () => (
+  <ScrollableCSS>
+    {(context) =>
+      <div className="progress" style={{ background: `linear-gradient(to right, #f9ec31 ${context.percentPageSeen}%, transparent 0)` }} />}
+  </ScrollableCSS>
+);
 ```
 
 ## License
