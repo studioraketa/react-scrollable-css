@@ -42,7 +42,7 @@ this also works for elements exiting the viewport
 
 ## Examples
 
-Until a documentation site is prepared, here's a common usage example.
+See examples at [https://react-scrollable-css.raketa.work](https://react-scrollable-css.raketa.work)
 
 ### Page reading progress
 
