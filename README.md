@@ -1,8 +1,8 @@
 # react-scrollable-css
 
 This package provides a component that tracks the scroll position of an element and provides
-calculations, related to browser scroll. These can be used to connect CSS properties to the scroll
-and create playful animations.
+calculations, related to the browser scroll. These can be used to connect CSS properties to the
+scroll and create playful animations.
 
 ## Installation
 

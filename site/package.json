@@ -1,0 +1,22 @@
+{
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "lint": "stylelint sass"
+  },
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "next": "^7.0.2",
+    "node-sass": "^4.9.3",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-scrollable-css": "^0.0.2"
+  },
+  "devDependencies": {
+    "stylelint": "^9.5.0",
+    "stylelint-config-standard": "^18.2.0",
+    "stylelint-order": "^1.0.0",
+    "stylelint-scss": "^3.3.0"
+  }
+}

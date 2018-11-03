@@ -1,0 +1,72 @@
+.logo {
+  position: fixed;
+  top: 1em;
+  left: 1em;
+  display: block;
+  z-index: 100;
+  margin: 0;
+  font-size: var(--fs-large);
+}
+
+.spotlight {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  padding: 4em;
+  border-bottom: 1px solid var(--light-gray);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+
+  .content { width: 65%; }
+
+  code {
+    display: block;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    background-color: #efefef;
+    color: #222;
+  }
+
+  .debug {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    margin-bottom: 0;
+    outline: 1px solid #212121;
+    background-color: #212121;
+    color: #fff;
+  }
+
+  .credits {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    padding: 0.5em;
+    outline: 1px solid #212121;
+    background-color: #212121;
+    color: #fff;
+
+    a { color: #fff; }
+  }
+
+  &.invert {
+    background-color: #fff;
+    color: #212121;
+  }
+}
+
+.progress {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 4px;
+  background-repeat: no-repeat;
+}
